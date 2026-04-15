@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { use } from 'react';
+import Banner from './Components/HomePage/Banner';
 
+const friendsPromise = fetch('/friends.json').then(res=>res.json())
 const HomePage = () => {
+    const friends = use(friendsPromise)
     return (
         <div>
-            holann
+            <Banner friends={friends}></Banner>
         </div>
     );
 };
