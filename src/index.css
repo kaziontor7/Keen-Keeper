@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+body{
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.dark-green{
+  color: #244D3F;
+}
+.bg-dark-green{
+  background-color: #244D3F;
+}
+
+.gray{
+  color: #64748B;
+}
+
+.black{
+  color: #1F2937;
+}
+
+.red-bg{
+  color: #EF4444;
+}
+
+.green-bg{
+  color: #CBFADB;
+}
+
+.yellow-bg{
+  color: #EFAD44;
+}

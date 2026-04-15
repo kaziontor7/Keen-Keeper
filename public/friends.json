@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Rivera",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "alex.rivera@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "hiking buddy"],
+    "bio": "Met during freshman year orientation. We've done several multi-day hikes together and still argue about the best trail snacks.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Chen",
+    "picture": "https://randomuser.me/api/portraits/men/67.jpg",
+    "email": "marcus.chen@example.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["gym buddy", "childhood"],
+    "bio": "Known each other since middle school. Still compete in the gym and grab protein shakes after every workout session.",
+    "goal": 10,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 3,
+    "name": "Liam Dubois",
+    "picture": "https://randomuser.me/api/portraits/men/45.jpg",
+    "email": "liam.dubois@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["travel companion", "university"],
+    "bio": "Roommate during study abroad in Europe. We've backpacked through several countries and still plan trips whenever possible.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 4,
+    "name": "Jamal Washington",
+    "picture": "https://randomuser.me/api/portraits/men/83.jpg",
+    "email": "jamal.washington@example.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["music friend", "close friend"],
+    "bio": "Bonded over our shared love of indie bands. We go to concerts together and occasionally jam in his garage studio.",
+    "goal": 14,
+    "next_due_date": "2025-07-24"
+  },
+  {
+    "id": 5,
+    "name": "Rahul Patel",
+    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "email": "rahul.patel@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["college", "cricket"],
+    "bio": "Met in university cricket team. Still play weekend matches and talk strategy over chai.",
+    "goal": 14,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 6,
+    "name": "Diego Morales",
+    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "email": "diego.morales@example.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["work friend", "soccer"],
+    "bio": "Colleague who joined the company soccer league with me. We celebrate every goal like it's the World Cup final.",
+    "goal": 10,
+    "next_due_date": "2025-07-23"
+  },
+  {
+    "id": 7,
+    "name": "Ethan Kim",
+    "picture": "https://randomuser.me/api/portraits/men/88.jpg",
+    "email": "ethan.kim@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["gaming", "close friend"],
+    "bio": "Online gaming buddy who became a real-life friend. We still squad up every weekend and grab burgers after.",
+    "goal": 14,
+    "next_due_date": "2025-07-26"
+  },
+  {
+    "id": 8,
+    "name": "Omar Hassan",
+    "picture": "https://randomuser.me/api/portraits/men/64.jpg",
+    "email": "omar.hassan@example.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["neighbor", "chess"],
+    "bio": "Neighbor who taught me chess. We have intense matches on the balcony and talk about life between moves.",
+    "goal": 14,
+    "next_due_date": "2025-07-17"
+  }
+]
