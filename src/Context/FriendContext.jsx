@@ -34,7 +34,8 @@ const FriendContext = ({children}) => {
         calls,
         handleCalls,
         handleTexts,
-        handleVideoCalls
+        handleVideoCalls,
+        setCalls
     }
     return (
         <StoredFriendContext value={data}>{children}</StoredFriendContext>
