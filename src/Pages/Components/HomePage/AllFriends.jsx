@@ -15,7 +15,7 @@ const AllFriends = ({friends}) => {
                 <p className='text-lg gray text-center'>On Track</p>
              </div>
              <div className='space-y-2 bg-white rounded-lg shadow p-6'>
-                <p className='dark-green md:text-3xl text-2xl text-center font-semibold'>6</p>
+                <p className='dark-green md:text-3xl text-2xl text-center font-semibold'>5</p>
                 <p className='text-lg gray text-center'>Need Attention</p>
              </div>
              <div className='space-y-2 bg-white rounded-lg shadow p-6'>

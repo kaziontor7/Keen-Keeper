@@ -9,7 +9,7 @@
     "tags": ["college", "hiking buddy"],
     "bio": "Met in freshman year. We still go hiking and argue about trail snacks.",
     "goal": 14,
-    "next_due_date": "2025-07-18"
+    "next_due_date": "Jul 18, 2025"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "tags": ["gym buddy", "childhood"],
     "bio": "Childhood friend from middle school. We still compete at the gym.",
     "goal": 10,
-    "next_due_date": "2025-07-22"
+    "next_due_date": "Jul 22, 2025"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "tags": ["travel", "university"],
     "bio": "Study abroad roommate. We've backpacked across Europe together.",
     "goal": 14,
-    "next_due_date": "2025-07-28"
+    "next_due_date": "Jul 28, 2025"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "tags": ["music", "close friend"],
     "bio": "Bonded over indie music. We go to concerts and jam together.",
     "goal": 14,
-    "next_due_date": "2025-07-24"
+    "next_due_date": "Jul 24, 2025"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "tags": ["college", "cricket"],
     "bio": "University cricket teammate. We still play weekend matches.",
     "goal": 14,
-    "next_due_date": "2025-07-12"
+    "next_due_date": "Jul 12, 2025"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "tags": ["work friend", "soccer"],
     "bio": "Work colleague and soccer teammate. We celebrate every goal together.",
     "goal": 10,
-    "next_due_date": "2025-07-23"
+    "next_due_date": "Jul 23, 2025"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "tags": ["gaming", "close friend"],
     "bio": "Gaming buddy turned real-life friend. We squad up every weekend.",
     "goal": 14,
-    "next_due_date": "2025-07-26"
+    "next_due_date": "Jul 26, 2025"
   },
   {
     "id": 8,
@@ -93,6 +93,6 @@
     "tags": ["neighbor", "chess"],
     "bio": "Neighbor and chess rival. We play intense matches on the balcony.",
     "goal": 14,
-    "next_due_date": "2025-07-17"
+    "next_due_date": "Feb 27, 2026"
   }
 ]
