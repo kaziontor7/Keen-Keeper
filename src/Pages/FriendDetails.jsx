@@ -11,7 +11,7 @@ const FriendDetails = () => {
     const {name,picture,email,days_since_contact:contact,status,tags,bio,goal,next_due_date:due} = selectedFriend;
     return (
         <div className='bg-[#F8FAFC]'>
-            <div className='w-9/10 md:8/10 mx-auto grid lg:grid-cols-2 grid-cols-1 gap-6 py-20'>
+            <div className='w-9/10 md:8/10 mx-auto grid lg:grid-cols-3 grid-cols-1 gap-6 py-20'>
 
             <div className=''>
             <div className='shadow bg-white p-6 rounded-lg'>
