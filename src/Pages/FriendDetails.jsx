@@ -59,12 +59,12 @@ const FriendDetails = () => {
             <div className='shadow space-y-4 p-6 bg-white rounded-lg'>
             <p className='dark-green font-medium text-xl'>Quick Check-In</p>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 '>
-                <button className='max-sm:mx-auto btn flex flex-col h-full p-4 btn-wide text-lg items-center justify-center'><span className='text-3xl black font-bold'><FiPhoneCall /></span> Call
+                <button className='max-sm:mx-auto btn flex flex-col h-full p-4 w-full text-lg items-center justify-center'><span className='text-3xl black font-bold'><FiPhoneCall /></span> Call
             </button>
-                <button className='max-sm:mx-auto btn flex flex-col h-full p-4 btn-wide text-lg items-center justify-center'><span className='text-3xl black font-bold'><LuMessageSquareText />
+                <button className='max-sm:mx-auto btn flex flex-col h-full p-4 w-full text-lg items-center justify-center'><span className='text-3xl black font-bold'><LuMessageSquareText />
 </span> Text
             </button>
-                <button className='max-sm:mx-auto btn flex flex-col h-full p-4 btn-wide text-lg items-center justify-center'><span className='text-3xl black font-bold'><LuVideo />
+                <button className='max-sm:mx-auto btn flex flex-col h-full p-4 w-full text-lg items-center justify-center'><span className='text-3xl black font-bold'><LuVideo />
 </span> Video
             </button>
             </div>

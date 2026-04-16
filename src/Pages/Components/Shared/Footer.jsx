@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         
             <footer className=" bg-dark-green">
-                <div className=' text-center  text-white p-10 w-8/10 mx-auto'>
+                <div className=' text-center  text-white p-10 w-9/10 md:w-8/10 mx-auto'>
   <aside>
     <p className="font-extrabold text-5xl text-white pb-4">
       Keen<span className='font-semibold'>Keeper</span>
@@ -49,9 +49,9 @@ const Footer = () => {
       </a>
     </div>
   </nav>
-  <div className='text-[#FAFAFA]/50 flex border-t border-[#FAFAFA]/50 justify-between w-full pt-7'>
+  <div className='text-[#FAFAFA]/50 flex border-t border-[#FAFAFA]/50 justify-between w-full pt-7 max-sm:flex-col'>
     <p className=''>© 2026 KeenKeeper. All rights reserved.</p>
-    <span className='flex gap-2'>
+    <span className='flex gap-2 max-sm:flex-col '>
         <p>Privacy Policy</p>
         <p>Terms of Service</p>
         <p>Cookies</p>
