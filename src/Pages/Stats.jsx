@@ -13,7 +13,7 @@ const Stats = () => {
        
         if (onlyVideoCalls.length===0 && calls.length === 0 && onlyMessages.length===0) {
         return (
-            <div className='p-20'>
+            <div className='w-9/10 md:w-8/10 mx-auto md:my-20 my-10'>
                 <div className='p-12 bg-white rounded-lg border-2 border-dashed border-gray-100 text-center'>
                     <div className="w-32 h-32 bg-gray-50 rounded-full flex items-center justify-center mx-auto mb-6">
                          <div className="w-20 h-20 border-8 border-gray-100 border-t-transparent rounded-full opacity-40"></div>
@@ -39,7 +39,7 @@ const Stats = () => {
         {name:'Text', value: onlyMessages.length , fill: '#7E35E1'}
     ];
     return (
-        <div className='w:9/10 md:w-8/10 mx-auto  my-20'>
+        <div className='w-9/10 md:w-8/10 mx-auto my-10 md:my-20'>
             <h1 className='font-bold text-5xl black pb-6'>Friends Analytics</h1>
             <div className='p-8 bg-white rounded-lg w-full'>
             <p className='dark-green font-medium text-xl pb-6'>By Interaction Type</p>

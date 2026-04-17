@@ -1,16 +1,17 @@
-# React + Vite
+# KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+KeenKeeper is a personal CRM designed to help you track and nurture meaningful connections. Browse your friends, track how long it has been since you last connected, and log your recent interactions directly to your timeline.
 
-Currently, two official plugins are available:
+## Technologies Used
+* React (Vite)
+* Tailwind CSS & DaisyUI
+* React Router v7
+* Recharts (Data Visualization)
+* React Toastify (Notifications)
+* React Context API (State Management)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+1. **Interactive Timeline:** Log Calls, Texts, and Video chats with friends and filter them by interaction type.
+2. **Analytics Dashboard:** Visualizes your relationship-building efforts through a dynamic Pie Chart.
+3. **Dynamic Status Cards:** Quickly see who is "On-Track" and who is "Overdue" for a catch-up based on your customized interaction goals.
