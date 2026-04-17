@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import FriendCard from './FriendCard';
+import { RiseLoader } from 'react-spinners';
 
 const AllFriends = ({friends}) => {
     const friendTotal = friends.map(friend=>friend)
+    const [loading,setLoading]= useState(true);
+    setTimeout(()=>{
+      setLoading(false)
+    },2400)
     return (
         <div className=''>
             <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 border-b border-[#E9E9E9] pb-10'>
@@ -25,9 +30,12 @@ const AllFriends = ({friends}) => {
            
             </div>
             <p className='font-semibold black text-2xl pt-10 pb-4'>Your Friends</p>
-              <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 pb-20'>
+            {
+               loading? <div className='text-center py-20'><RiseLoader color='#244D3F' /></div>  : <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 pb-20'>
                 {friends.map((friend,index) => <FriendCard friend={friend} key={index}></FriendCard>)}
              </div>
+            }
+              
         </div>
     );
 };

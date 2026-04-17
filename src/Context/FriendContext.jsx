@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { StoredFriendContext } from './context';
+import { toast } from 'react-toastify';
 
 
 
@@ -11,6 +12,7 @@ const FriendContext = ({children}) => {
             time: new Date().toLocaleString(),
             type: 'Call'
         }
+        toast.success(`Called ${name}.`)
        setCalls([...calls,newEntry])
     }
     const handleTexts = (name)=>{
@@ -19,6 +21,7 @@ const FriendContext = ({children}) => {
             time: new Date().toLocaleString(),
             type: 'Message'
         }
+        toast.success(`Texted ${name}.`)
        setCalls([...calls,newEntry])
     }
     const handleVideoCalls = (name)=>{
@@ -27,6 +30,7 @@ const FriendContext = ({children}) => {
             time: new Date().toLocaleString(),
             type: 'Video Call'
         }
+        toast.success(`Video Called ${name}.`)
        setCalls([...calls,newEntry])
     }
     
