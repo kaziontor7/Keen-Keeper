@@ -47,13 +47,41 @@ const Timeline = () => {
             filtered === 'all' && <TimelineCard calls={calls}></TimelineCard>
            }
            {
-            filtered === 'call' && <TimelineCard calls={onlyCalls}></TimelineCard>
+            onlyCalls.length === 0 && filtered === 'call' ? <div className='w-9/10 md:w-8/10 mx-auto my-20 text-center'>
+                <div className='p-20 bg-gray-100 border-2 border-dashed border-gray-300 rounded-2xl'>
+                    <p className='text-2xl font-semibold black'>
+                        No history yet
+                    </p>
+                    <p className='text-gray-500 mt-2'>
+                        You haven't made any calls. Your activity timeline will appear here.
+                    </p>
+                </div>
+            </div> : filtered === 'call' && <TimelineCard calls={onlyCalls}></TimelineCard>
+            
            }
            {
-            filtered === 'video' && <TimelineCard calls={onlyVideoCalls}></TimelineCard>
+            onlyVideoCalls.length === 0 && filtered === 'video' ? <div className='w-9/10 md:w-8/10 mx-auto my-20 text-center'>
+                <div className='p-20 bg-gray-100 border-2 border-dashed border-gray-300 rounded-2xl'>
+                    <p className='text-2xl font-semibold black'>
+                        No history yet
+                    </p>
+                    <p className='text-gray-500 mt-2'>
+                        You haven't made any video calls. Your activity timeline will appear here.
+                    </p>
+                </div>
+            </div> : filtered === 'video' && <TimelineCard calls={onlyVideoCalls}></TimelineCard>
            }
            {
-            filtered === 'message' && <TimelineCard calls={onlyMessages}></TimelineCard>
+            onlyMessages.length === 0 && filtered === 'message' ? <div className='w-9/10 md:w-8/10 mx-auto my-20 text-center'>
+                <div className='p-20 bg-gray-100 border-2 border-dashed border-gray-300 rounded-2xl'>
+                    <p className='text-2xl font-semibold black'>
+                        No history yet
+                    </p>
+                    <p className='text-gray-500 mt-2'>
+                        You haven't made any messages. Your activity timeline will appear here.
+                    </p>
+                </div>
+            </div> : filtered === 'message' && <TimelineCard calls={onlyMessages}></TimelineCard>
            }
            {
             filtered === 'date' && <TimelineCard calls={dateList}></TimelineCard>
